@@ -1,0 +1,177 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #e4e7ec;
+}
+
+.nameNav {
+    vertical-align: top;
+}
+
+
+.raleway-navBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 10px 20px;
+    font-size:  60px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #594192;
+    color: aliceblue;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+.navLogo img {
+    width: 200px;
+    height: auto;
+
+}
+
+.navSpace {
+    margin-right: auto;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 40px;
+    background: linear-gradient(to bottom,  #594192 0%, #e4e7ec 100%);
+    color: white;
+}
+
+.heroStory {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.heroStory h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: heavy;
+    -webkit-text-stroke: 1px #e4e7ec;
+}
+
+.heroStory p {
+    color:  #e4e7ec;
+    font-size: 20px;
+    -webkit-text-stroke: 2% white;
+}
+
+
+.ctaButton {
+    background-color: #c9a84c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ctaButton:hover {
+    background-color: #a8872e;
+    transition: 0.3s ease;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.services {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.services:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.services img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container {
+  padding: 12px 16px;
+}
+
+
+.heroImg {
+    width: 400px;
+}
+
+
+
+
+.contacts {
+    vertical-align: bottom;
+}
+
+
+.contactsStyle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 10px 20px;
+    font-size:  18px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #594192;
+    color: #c9a84c;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+.footerLogo img {
+    width: 200px;
+    height: auto;
+
+}
+
+.footerSpace {
+    margin-right: auto;
+}
+
+
+@media (max-width: 768px) {
+    .service {
+        flex-direction: column; /* stacks cards vertically on mobile */
+        align-items: center;
+    }
+
+    .heroContent {
+        width: 100%;
+        padding: 20px;
+    }
+}
