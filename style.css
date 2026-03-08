@@ -70,10 +70,37 @@ body{
     -webkit-text-stroke: 2% white;
 }
 
+
+.ctaButton {
+    background-color: #c9a84c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ctaButton:hover {
+    background-color: #a8872e;
+    transition: 0.3s ease;
+}
+
 .heroImg {
     width: 400px;
 }
 
+
+
+
+
+
+
+
+
 .contacts {
     vertical-align: bottom;
 }
+
