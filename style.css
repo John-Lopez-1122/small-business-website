@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #e4e7ec;
+    background-color: white;
 }
 
 .nameNav {
@@ -9,19 +9,18 @@ body{
 }
 
 
-.raleway-navBar {
+.navBar {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
     padding: 10px 20px;
     font-size:  60px;
-    font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    background-color: #594192;
-    color: aliceblue;
+    background-color: wheat;
+    color: rgb(0, 2, 4);
     position: relative;
     z-index: 1;
 
@@ -45,8 +44,8 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 80px 40px;
-    background: linear-gradient(to bottom,  #594192 0%, #e4e7ec 100%);
-    color: white;
+    background: white;
+    color: black;
 }
 
 .heroStory {
@@ -58,14 +57,14 @@ body{
 }
 
 .heroStory h2 {
-    color: white;
+    color: black;
     font-size: 30px;
     font-weight: heavy;
-    -webkit-text-stroke: 1px #e4e7ec;
+    -webkit-text-stroke: .01px #e4e7ec;
 }
 
 .heroStory p {
-    color:  #e4e7ec;
+    color:  black;
     font-size: 20px;
     -webkit-text-stroke: 2% white;
 }
