@@ -128,12 +128,37 @@ body{
 
 
 
-
-
-
-
-
 .contacts {
     vertical-align: bottom;
 }
 
+
+.contactsStyle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 10px 20px;
+    font-size:  18px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #594192;
+    color: #c9a84c;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+.footerLogo img {
+    width: 200px;
+    height: auto;
+
+}
+
+.footerSpace {
+    margin-right: auto;
+}
