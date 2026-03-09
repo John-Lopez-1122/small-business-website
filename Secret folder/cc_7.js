@@ -6,3 +6,5 @@ updateButton.addEventListener("click", function() {
     ctaHeadline.textContent = headLineInput.value;
 }
 );
+
+alert("Congrats you found it!")
